@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iTzFaisal/deepseek-pricing-gate.git"
+    "url": "git+https://github.com/iTzFaisal/deepseek-pricing-gate.git"
   },
   "bugs": {
     "url": "https://github.com/iTzFaisal/deepseek-pricing-gate/issues"
