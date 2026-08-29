@@ -1,0 +1,31 @@
+{
+  "name": "deepseek-pricing-gate",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that gates DeepSeek chat requests during peak pricing windows via a TUI confirmation dialog",
+  "license": "MIT",
+  "type": "module",
+  "main": "./plugins/deepseek-pricing-gate.server.ts",
+  "exports": {
+    "./server": "./plugins/deepseek-pricing-gate.server.ts",
+    "./tui": "./tui/deepseek-pricing-gate.tui.ts"
+  },
+  "files": [
+    "plugins/",
+    "tui/",
+    "deepseek-pricing-gate.shared.ts"
+  ],
+  "dependencies": {
+    "@opencode-ai/plugin": "1.18.15"
+  },
+  "devDependencies": {
+    "@opentui/core": "0.4.5",
+    "@opentui/keymap": "0.4.5",
+    "@opentui/solid": "0.4.5",
+    "@types/node": "24.12.2",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  }
+}
