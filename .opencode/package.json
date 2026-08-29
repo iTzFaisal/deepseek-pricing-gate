@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "OpenCode plugin that gates DeepSeek chat requests during peak pricing windows via a TUI confirmation dialog",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iTzFaisal/deepseek-pricing-gate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iTzFaisal/deepseek-pricing-gate/issues"
+  },
+  "homepage": "https://github.com/iTzFaisal/deepseek-pricing-gate",
+  "author": "Faisal Alkheraiji",
   "type": "module",
   "main": "./plugins/deepseek-pricing-gate.server.ts",
   "exports": {
